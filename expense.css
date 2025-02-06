@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(237, 248, 252);
+}
+
+
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#my_balance {
+    font-size: 19px;
+}
+
+h1 {
+    margin-bottom: 2%;
+}
+
+
+h4 {
+    font-size: 20px;
+    margin-top: 12px;
+    padding-right: 23%;
+}
+
+
+#balance {
+    background-color: rgb(237, 248, 252);
+    font-size: 20px;
+    padding-right: 16%;
+    margin-top: 9px;
+}
+
+
+.box {
+    border: 1px solid black;
+    background-color: white;
+    width: 29%;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 17px;
+    padding-left: 8px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.para1{
+    font-size: 17px;
+    margin-left: 12%;
+}
+
+
+.para2{
+    font-size: 17px;
+    margin-left: 46%;
+}
+
+
+h5 {
+    font-size: 21px;
+    margin-right: 25%;
+    margin-top: 12px;
+}
+
+
+h2 {
+    margin-right: 13%;
+}
+
+
+.p {
+    font-size: 17px;
+    margin-right: 27%;
+    margin-top: 9px;
+}
+
+.p2 {
+    font-size: 17px;
+    margin-right: 25%;
+    margin-top: 18px;
+}
+
+#description {
+    margin-top: 11px;
+    font-size: 15px;
+    width: 29%;
+    height: 23px;
+}
+
+#amount {
+    width: 29%;
+    height: 23px;
+    margin-top: 11px;
+}
+
+#income {
+    border: none;
+    color: rgb(93, 247, 93);
+    width: 28%;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+
+#expense {
+    border: none;
+    color: rgb(240, 47, 47);
+    width: 34%;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+
+#history {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn {
+    font-size: 18px;
+    height: 36px;
+    width: 14%;
+    margin-top: 3%;
+}

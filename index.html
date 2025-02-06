@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="./expense.css">
+        <script src="https://kit.fontawesome.com/8b94f344a4.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <div>
+                <h1>Expense Tracker</h1>
+            </div>
+            <div>
+                <div>
+                    <h4>My Balance</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-indian-rupee-sign" style="color: #000000;"></i>
+                    <span id="my_balance">0000</span>
+                </div>
+            </div>
+            <div>
+                <div class="box">
+                    <div class="para1">
+                        <p>Income</p>
+                        <i class="fa-solid fa-indian-rupee-sign" style="color: #000000;"></i>
+                        <span id="income">0000</span>
+                    </div>
+                    <div class="para2">
+                        <p>Expense</p>
+                        <i class="fa-solid fa-indian-rupee-sign" style="color: #000000;"></i>
+                        <span id="expense">0000</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h5>History</h5>
+                </div>
+                <div id="history_list">
+                    <!-- Transaction history will appear here -->
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Add New Transaction</h2>
+                </div>
+                <p class="p">Text</p>
+                <div>
+                    <input type="text" value="" id="description" placeholder="Enter Text...">
+                </div>
+                <div>
+                    <p class="p2">Amount</p>
+                </div>
+                <div>
+                    <input type="text" value="" id="amount" placeholder="Enter Amount...">
+                </div>
+            </div>
+            <div>
+                <button class="btn" type="button" onclick="addTransaction()">Add Transaction</button>
+            </div>
+            <p id="err_msg"></p>
+        </div>
+        <script src="./expense.js"></script>
+    </body>
+
+</html>
